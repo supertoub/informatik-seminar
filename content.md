@@ -1,7 +1,22 @@
 # How to hack a drone
 ## Wie funktioniert eine Drohne
-Umgangssprachlich wird oft der Begriff Drohne verwendet, damit ist in der allermeisten Fällen von Multikoptern die rede.
-//TODO Beschreiben automatischer Modus/ Wegpunktmodus
+Umgangssprachlich wird oft der Begriff Drohne verwendet, damit ist in den allermeisten Fällen von Multikoptern die rede. Multikopter sind Flugzeuge welche mit mehreren Propellern auf der gleichen Ebene ausgestattet sind. Dabei drehen sich jeweils zwei Rotoren in gegenseitiger Richtung, wobei sich deren Drehmoment aufhebt. Somit kann auf ein Hekrotor wie z.B. bei einem Helokopter verzichtet werden. Gesteuert werden Multikopter durch Anpassung der Geschwindigkeit der einzelnen Rotoren. Werden Bespielsweise die beiden hinteren Rotoren schneller Angetrieben steigt die Drohne Hinten stärker an und kippt nach vorne, wobei die Rotoren nun alle nach hinten gerichtet sind und ein Vorwärtsschub entsteht. Das gleiche gilt für die beidenn seitlichen Rotoren für eine Seitwärtsbewegung. Eine Drehung entlang der Z-Achse kann bewirkt werden, in dem die zum Beispiel im Uhrzeigersinn drehenden Rotoren schneller drehen. Die beiden Drehmomente der Propeller sind jetzt nicht mehr ausgeglichen und es entsteht eine Drehung der ganzen Drohne im Uhrzeigersinn.
+
+### Sensoren
+#### Beschleunigungs- und Lagesensor
+Der wohl wichtigste Sensor zur stabilisierunng einer Drohne is der Lage- und Beschleunigungssennsor. Dieser Prüft kontinuierlich die Lage gegenüber dem Gravitationszentrum der Erde resp. die Änderung der Beschleunigung. Mittels eines Regelkreises werden nun die Rotoren so angesteuert, dass die Drohne bei Nichteinwirken des Piloten stabil in der Luft steht.
+
+#### Barometer
+Da sich der atmosphärische Luftdruck mit steigender Höhe verkleinert, kann mittels einnes Barometers die Höhe der Drohne gemessen werden. Dies hilft zusätzlich die Drohne bei Neutralstellung des Auf/ Ab oder auch Throttle Hebels genannt, auf der Fernbenienung, stabil in der Luft zu halten.
+
+#### Kompass
+Ein digitaler Kompass misst das Erdmagnetfeld. Dies hilft eine Drehung oder auch gieren genannt, der Drohne zu verhindern. Zudem dient er zur Orientierung im Raum, was besonders für den automatischen Flugmodus wichtig ist.
+
+#### GNSS
+Besser bekannt under dem amerikanischen Markennamen GPS. Moderne Drohnen nutzen aber meist alle verfügbaren Satelitten, also auch Glonas der Russen, Galileo aus Europa oder Baidu der Chinesen. Das globale Navigationssatelitensystem hilft der Drohne abdrift bei zum Beispiel leichtem Wind entgegen zu wirken. Ausserdem ermöglicht es den automatischen Flug.
+
+### Automatischer Flugmodus
+Mittels Kompass kann sich die Drohne im Raum orientieren und mittels GNSS positionieren. Damit ist es möglich die Drohne autonom fliegen zu lassen. Hier werden der Drohne Kordinations Wegpunkte vorgegeben, welche die Drohne der Reihe nach abfliegt. Damit kann zum Beispiel durch konttinuierliches Auslösen der Kamera an Gelände kartografiert werden.
 
 ## Rechtliche Grundlagen in der Schweiz
 ### Rechtliche Grundlagen zu Drohnen
