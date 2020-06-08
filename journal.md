@@ -26,3 +26,34 @@ Journal
 
 6.4.2020
 - Kapitel Angriff auf die Übertragung
+- automatischer Flugmodus
+
+10.4.2020
+- Kapitel Angriff auf die Steuerung und Remotecontroller
+
+13.4.2020
+- Physische Abwehr und Drone Detection Platform
+
+7.5.2020
+- Rechtliche Grunndlagen BAZL
+
+21.5.2020
+- Rechtliche Grunndlagen BAZL
+
+30.5.2020
+- Rechtliche Grundlagen Datenschutz, Drohnenn mit Kameras
+
+4.5.2020
+- Kapitel "wie funktioniert eine Drohne" final
+- Fazit
+
+5.5.2020
+- Rewrite Kapitel Angriff auf die Telemetrie
+
+8.5.2020
+- Vorbereitung Präsentation
+- Arbeit Formatieren
+- PDF Erstellen zur Abgabe
+
+9.5.2020
+- Üben Präsentation
