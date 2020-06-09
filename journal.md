@@ -57,3 +57,5 @@ Journal
 
 9.5.2020
 - Üben Präsentation
+- letzte kleine Anassungen
+- export Präsentation zur Abgabe
